@@ -13,6 +13,7 @@
 		max-width: 250px;
 		min-width: 200px;
 		margin: 0px auto 10px auto;
+		border: #4d4d4d 1px solid;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -21,7 +22,7 @@
 #news_iframe_scroll iframe 
 		{
 		width: 100%;
-		height: 300px; /* IF YOU EDIT HEIGHT EDIT THE SCROLLING SCRIPT HEIGHT!!!! */
+		height: 270px; /* IF YOU EDIT HEIGHT EDIT THE SCROLLING SCRIPT HEIGHT!!!! */
 		display: block;
 		margin: 0px;
 		padding: 0px;
@@ -33,7 +34,7 @@
 		color: #FFFFFF;
 		font: normal 20px "Droid Sans", arial, sans-serif;
 		text-align: left;
-		background-color: #1aa3ff;
+		background-color: #1a1a1a;
 		padding: 5px 5px 5px 5px;
 		}
 
