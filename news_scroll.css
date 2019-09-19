@@ -13,7 +13,7 @@
 		max-width: 250px;
 		min-width: 200px;
 		margin: 0px auto 10px auto;
-		border: #4d4d4d 1px solid;
+		border: #455a64 8px solid;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -34,7 +34,7 @@
 		color: #FFFFFF;
 		font: normal 20px "Droid Sans", arial, sans-serif;
 		text-align: left;
-		background-color: #1a1a1a;
+		background-color: #00cc99;
 		padding: 5px 5px 5px 5px;
 		}
 
