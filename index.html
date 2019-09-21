@@ -25,9 +25,14 @@
     <link rel="stylesheet" href="css/wickedcss.min.css"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="news_scroll.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet"> 
     
     <style>
             .footer {
+              background-image: url("img/bck1.jpg");
+              background-repeat: repeat;
+            }
+            #found {
               background-image: url("img/bck1.jpg");
               background-repeat: repeat;
             }
@@ -52,7 +57,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-4 d-none d-md-block">
+                        <div class="col-xl-4 col-md-4 d-none d-md-block" style="text-align: right">
                             <div style="text-align: right">
                                 <a href="index.html">
                                     <img src="img/stanne.png" alt="">
@@ -70,9 +75,14 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="Other/admin.html">Administration</a></li>
-                                        <li><a href="Other/gen.html">Generalate</a></li>
+                                        <li><a href="#">Generalate<i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="Other/houses.html">Houses under Generalate</a></li>
+                                                <li><a href="Other/pro.html">Provinces/Regions/Convents</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Other/apostolate.html">Apostolate</a></li>
                                         <li><a href="#event-section">News & Events</a></li>
-                                        <li><a href="Other/founder.html">Our Founder</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -237,42 +247,46 @@
                 </script>
                 
             </div>
-    <!-- photographi_area_end -->
+    <!-- slider_area_end -->
 
-        <!-- subscribe_newsletter_start -->
-        <div class="subscribe_newsletter">
-                <div class="container">
-                    <div class="black_bg">
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <div class="newsletter_text">
-                                    <a href="Other/founder.html">
-                                    <p>
-                                        Our Founder
-                                    <p>
-                                    <h3>Bishop Stephen Louis Charbonnaux</h3>
-                                </a>
-                                </div>
-                            </div>
-                            <div>
-                                    <a href="Other/founder.html">
-                                            <img src="img/founder.png" alt="founder">
-                                        </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- founder -->
+        
+        <section id="found">
+                <p><br><br><br></p>
+<div class="container">
+    <div class="card-deck">
+      <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
+        <div class="card-body text-center">
+            <h3 style="font-family: 'Lobster', cursive; color: #007bff">Our Reformer</h3>
+            <img src="img/reformer.png" alt="" style="text-align: center">
+             <h3 style="font-family: 'DM Sans', sans-serif; color: #007bff">Bishop Thomas Pothakamury</h3>
+        </div>
+      </div>
+
+      <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
+          <div class="card-body text-center">
+            <h3 style="font-family: 'Lobster', cursive; color: #007bff">Our Founder</h3>
+                                                            <a href="Other/founder.html">
+                                                                <img src="img/founder.png" alt="" style="text-align: center">
+                                                                <h3 style="font-family: 'DM Sans', sans-serif; color: #007bff">Bishop Stephen Louis Charbonnaux</h3>
+                                                            </a>
+          </div>
+        </div>
+        <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
+            <div class="card-body text-center">
+                    <h3 style="font-family: 'Lobster', cursive; color: #007bff">First Superior General</h3>
+                    <img src="img/mother.png" alt="" style="text-align: center">
+                    <h3 style="font-family: 'DM Sans', sans-serif; color: #007bff">Rev. Mother Presentation SAB</h3>
             </div>
+          </div>  
+    </div>
+  </div>
+<p><br><br><br></p>
+</section>
             <!-- subscribe_newsletter_end -->
 
     <!-- most_recent_blog_start -->
-    <section id="event-section">
-    <style>
-            .f_div {
-              background-image: url("img/bck.jpg");
-              background-repeat: repeat-y;
-            }
-            </style>
+    <section id="event-section" style="background-color: #e6fff9">
     <f_div class="most_recent_blog" style="background-color: #e6fff9">
         <div class="container">
             <div class="row">
@@ -333,7 +347,7 @@
                                         padding-right: 15px;
                                         padding-bottom: 15px;
                                         padding-left: 25px;">
-                                                <a href="Other/cal.html" class="btn btn-primary py-2 px-4" style="background-color: #00cc99; border: #00cc99">View Events in Calendar</a>
+                                                <a href="Other/cal.html" class="btn btn-primary py-2 px-4" style="background-color: #00cc99; border: #00cc99">&nbsp&nbsp View Events in Calendar &nbsp&nbsp </a>
                                                 </div>
                                     </div>
                                     </div>

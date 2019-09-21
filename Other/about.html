@@ -25,16 +25,25 @@
 	<link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="news_scroll.css" type="text/css">
 
+  <style>
+    body {
+      background-image: url("images/bck1.jpg");
+      background-repeat: repeat;
+    }
+    </style>
+
 
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
       <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html" style="color: #005c99"><img src=images/logo.png style= "height:3rem; width:auto" >Sisters of St. Anne </br> &nbsp;&nbsp;&nbsp;&nbsp;   Bangalore</a>
+	      <a class="navbar-brand" href="../index.html" style="color: #005c99"><img src=images/logo.png style= "height:3rem; width:auto" >Sisters of St. Anne </br> &nbsp;&nbsp;&nbsp;&nbsp;   Bangalore</a>
 	      	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link"><span style="color: #005c99"><b>Home</b></span></a></li>
+              <a href="../index.html">
+                  <img src="images/stanne.png" alt="">
+              </a>
 	        </ul>
 	      </div>
 	    </div>
@@ -64,44 +73,44 @@
 
 
         <style>
-                .accordion {
-                  background-color: #eee;
-                  color: #444;
-                  cursor: pointer;
-                  padding: 18px;
-                  width: 100%;
-                  max-width: 1100px;
-                  border: none;
-                  text-align: left;
-                  outline: none;
-                  font-size: 15px;
-                  transition: 0.4s;
-                }
-                
-                .active, .accordion:hover {
-                  background-color: #ccc;
-                }
-                
-                .accordion:after {
-                  content: '\002B';
-                  color: #777;
-                  font-weight: bold;
-                  float: right;
-                  margin-left: 5px;
-                }
-                
-                .active:after {
-                  content: "\2212";
-                }
-                
-                .panel {
-                  padding: 0 18px;
-                  background-color: white;
-                  max-height: 0;
-                  overflow: hidden;
-                  transition: max-height 0.2s ease-out;
-                }
-                </style>
+          .accordion {
+            background-color: #4da3ff;
+            color: #fff;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            max-width: 1100px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+          }
+          
+          .active, .accordion:hover {
+            background-color: #007bff;
+          }
+          
+          .accordion:after {
+            content: '\002B';
+            color: #fff;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+          }
+          
+          .active:after {
+            content: "\2212";
+          }
+          
+          .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+          }
+          </style>
  
                 <div style="text-align: center;">
                 <button class="accordion">Historical Note</button>
@@ -352,6 +361,7 @@
                <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <p><br><br></p>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
