@@ -34,6 +34,10 @@
               background-repeat: repeat;
             }
             #found {
+              background-image: url("img/bck.jpg");
+              background-repeat: repeat;
+            }
+            #colum {
               background-image: url("img/bck1.jpg");
               background-repeat: repeat;
             }
@@ -98,7 +102,7 @@
     </header>
     <!-- header-end -->
 
-    <!-- welcome_protomedia_start -->
+    <!-- welcome_sab_start -->
     <div class="welcome_protomedia">
         <div class="container">
                     <div class="pulse">
@@ -110,9 +114,9 @@
                     </div>
             </div>
     </div>
-    <!-- welcome_protomedia_end -->
+    <!-- welcome_sab_end -->
 
-    <!-- photographi_area_start -->
+    <!-- slider_start -->
     <div style="background-color: #007bff">   
             <style>
                 * {box-sizing: border-box;}
@@ -250,12 +254,95 @@
             </div>
     <!-- slider_area_end -->
 
+
+    <!-- two column start -->
+    <section id="colum">
+
+    <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            /* Create two equal columns that floats next to each other */
+            .column {
+                
+              border-left: 5px dotted #c8b57d;
+
+              float: left;
+              width: 50%;
+              padding: 40px;            
+
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column {
+                width: 100%;
+              }
+            }
+            </style>
+
+            
+            <div class="row">
+              <div class="column">
+                <h2 style="font-family: 'Lobster', cursive; color: #007bff; text-align: center">SAB At A Glance</h2>
+                <p style="font-style: italic; text-align: center; color: #1a1a1a"><br>“Live a life of love,<br>
+                    Breathe a breath of Service”<br></p>
+                <p style="color: #1a1a1a; text-align: justify; text-justify: inter-word;">                     
+                      The Congregation of the Sisters of St. Anne, Bangalore, founded in Bangalore in the year 1857 is a Religious Institute of 
+                      Pontifical Right and dedicated to apostolic works in India and Abroad. It is the first Women Religious Congregation Founded in 
+                      Karnataka. Bishop Stephen Louis Charbonnaux, the first Bishop of Mysore Mission being convinced of the paramount importance of 
+                      Catholic Education, brought the Good Shepherd Sisters of Angers (RGS) from France to take charge of the Christian Schools and 
+                      Orphanages in Bangalore. These foreign sisters found it too much to cater to the needs of the local Kannada and Tamil speaking 
+                      children since they did not have command over the local languages. So, being a visionary leader, the Bishop thought of Founding 
+                      an Indian Congregation to cater to the Educational and Evangelization needs of the Indian Neo-catechumens. 
+                      Thus, the Congregation of the Sisters of 
+                      St. Anne took its birth in 1857 in the premises of the Good Shepherd Convent in Bangalore. </p>
+                      <div style="text-align: center; padding: 20px 20px 20px 20px;">
+                            <a href="Other/about.html" class="genric-btn success-border circle" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #007bff"><b style="color: #fff">Read More</b></a>
+                </div>
+              </div>
+              <div class="column">
+                <h2 style="font-family: 'Lobster', cursive; color: #007bff; text-align: center">Our Founder</h2>
+                <div style="text-align: center"><img src="img/founder.png" alt="" style="text-align: center; width: 170px;"></div>
+                <p style="color: #1a1a1a; text-align: justify; text-justify: inter-word;">The Founder of the Congregation of the sisters of St. Anne Bangalore (SAB)is Bishop Stephen Louis Charbonnaux, 
+                    of the Paris Foreign Missions (MEP), the first Apostolic Vicar (1850-1873) of the then Mysore Mission. 
+                    BishopCharbonnaux MEP born in France came as a missionary to India in 1831.  He toiled for the cause of 
+                    evangelization and education in his newly formed Diocese.    He had mastered local languages, published number 
+                    of Books including the Latin-Kannada Dictionary which has remained as a unique contribution to Kannada Literature.
+                     He was a zealous, courageous, kind, compassionate and humble missionary.</p>
+                     <div style="text-align: center; padding: 20px 20px 20px 20px;">
+                            <a href="Other/founder.html" class="genric-btn success-border circle" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #007bff"><b style="color: #fff">Read More</b></a>
+                </div>
+              </div>
+            </div>
+        </section>  
+
+        <!-- two column end -->
+
         <!-- founder -->
         
         <section id="found">
                 <p><br><br><br></p>
 <div class="container">
     <div class="card-deck">
+            <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
+                    <div class="card-body text-center">
+                      <h3 style="font-family: 'Lobster', cursive; color: #007bff">Our Founder</h3>
+                                                                      <a href="Other/founder.html">
+                                                                          <img src="img/founder.png" alt="" style="text-align: center">
+                                                                          <h3 style="font-family: 'DM Sans', sans-serif; color: #007bff">Bishop Stephen Louis Charbonnaux</h3>
+                                                                      </a>
+                    </div>
+                  </div>
+
       <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
         <div class="card-body text-center">
             <h3 style="font-family: 'Lobster', cursive; color: #007bff">Our Reformer</h3>
@@ -264,15 +351,7 @@
         </div>
       </div>
 
-      <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
-          <div class="card-body text-center">
-            <h3 style="font-family: 'Lobster', cursive; color: #007bff">Our Founder</h3>
-                                                            <a href="Other/founder.html">
-                                                                <img src="img/founder.png" alt="" style="text-align: center">
-                                                                <h3 style="font-family: 'DM Sans', sans-serif; color: #007bff">Bishop Stephen Louis Charbonnaux</h3>
-                                                            </a>
-          </div>
-        </div>
+
         <div class="card" style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); background-color: #e6f2ff">
             <div class="card-body text-center">
                     <h3 style="font-family: 'Lobster', cursive; color: #007bff">First Superior General</h3>
